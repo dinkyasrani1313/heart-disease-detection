@@ -4,19 +4,21 @@ This database contains 76 attributes, but all published experiments refer to usi
 
 Attribute Information:
 
-age
-sex
-chest pain type (4 values)
-resting blood pressure
-serum cholestoral in mg/dl
-fasting blood sugar > 120 mg/dl
-resting electrocardiographic results (values 0,1,2)
-maximum heart rate achieved
-exercise induced angina
-oldpeak = ST depression induced by exercise relative to rest
-the slope of the peak exercise ST segment
-number of major vessels (0-3) colored by flourosopy
-thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
+Only 14 attributes used:
+1. #3 (age)
+2. #4 (sex)
+3. #9 (cp)
+4. #10 (trestbps)
+5. #12 (chol)
+6. #16 (fbs)
+7. #19 (restecg)
+8. #32 (thalach)
+9. #38 (exang)
+10. #40 (oldpeak)
+11. #41 (slope)
+12. #44 (ca)
+13. #51 (thal)
+14. #58 (num) (the predicted attribute)
 
 Here we use Logistic Regression, decission tree and random forest to identify whether a person has a heart disease or not
 
